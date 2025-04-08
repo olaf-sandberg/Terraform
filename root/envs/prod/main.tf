@@ -1,5 +1,5 @@
 module "prod_vpc" {
-  source = "./modules/networking"
+  source = "../../../modules/networking"
 
   module_cidr_block = var.prod_vpc_cidr
   module_vpc_name   = var.prod_vpc_name
